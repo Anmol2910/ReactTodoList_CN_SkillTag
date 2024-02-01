@@ -1,4 +1,6 @@
+// TodoReducer.js
 const todoReducer = (state, action) => {
+    // Reducer function to manage state changes for todos
     switch (action.type) {
       case 'FETCH_TODOS':
         return { ...state, todos: action.payload };

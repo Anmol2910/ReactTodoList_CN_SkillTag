@@ -1,5 +1,7 @@
+// TodoItem.js
 import React from 'react';
 
+// JSX for rendering a single todo item
 const TodoItem = ({ todo, updateTodo, deleteTodo }) => {
   return (
     <li>

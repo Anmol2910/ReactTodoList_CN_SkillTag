@@ -1,6 +1,8 @@
+// TodoList.js
 import React from 'react';
 import TodoItem from './TodoItem';
 
+  // JSX for rendering the list of todos
 const TodoList = ({ todos, updateTodo, deleteTodo }) => {
   return (
     <ul>
